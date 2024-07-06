@@ -1,2 +1,2 @@
 # Jenkins-CI-CD
-## Step 1: Initialized the GitHub Repo
+#### Step 1: Initialized the GitHub Repo

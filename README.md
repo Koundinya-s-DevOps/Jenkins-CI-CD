@@ -20,5 +20,13 @@
 ###### Complete the Jenkins Setup and create a user account (or) keep admin as default user account
 ###### Create on Standard Plugin configuration and wait for the Jenkins to complete and restart.
 ### Step 3: Docker Slave Configuration
-
-
+###### Install docker
+        sudo apt update
+        sudo apt install docker.io
+###### Grant Jenkins user and Ubuntu user permission to docker deamon.
+        sudo su -
+        usermod -aG docker jenkins
+        usermod -aG docker ubuntu
+        systemctl restart docker
+###### Restart Jenkins
+        http://[PUBLIC_IPADDRESS]:8080/restart

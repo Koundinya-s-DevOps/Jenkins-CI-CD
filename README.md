@@ -30,3 +30,10 @@
         systemctl restart docker
 ###### Restart Jenkins
         http://[PUBLIC_IPADDRESS]:8080/restart
+### Step 4: Install Docker Pipeline Plugins
+        *Log in to Jenkins
+        *Go to Manage Jenkins --> Manage Plugins
+        *In the Available tab, Search for "Docker Pipeline"
+        *Select the Plugin and Click the Install Button
+        *Restart Jenkins after the plugin is installed.
+

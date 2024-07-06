@@ -4,3 +4,6 @@
 ######  Install the Java in the EC2 Instance, As Jenkins is a Java Based Program.
              sudo apt update
              sudo apt install openjdk-11-jre
+###### Verify the Java Installation
+            java --version
+
